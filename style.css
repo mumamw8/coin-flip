@@ -9,6 +9,15 @@ body {
     background: linear-gradient(to right, #575ce5 50%, #f9fbfc 50%) fixed;
 }
 
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .container {
     background: #fff;
     width: 400px;
